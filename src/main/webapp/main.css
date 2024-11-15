@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+h1 {
+    color: teal;
+}
+label {
+    float: left;
+    width: 6em;
+    margin-bottom: 0.5em;
+}
+input[type="text"], input[type="email"] {
+    width: 15em;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+}
+br {
+    clear: both;
+}
+#submit {
+    margin-left: 0.5em; }
+
+/* Tạo khung viền cho toàn bộ bảng */
+table {
+    border-collapse: collapse; /* Giúp các đường viền không bị trùng nhau */
+    width: 100%; /* Đặt chiều rộng bảng 100% */
+}
+
+/* Tạo khung viền cho các ô (cell) trong bảng */
+table, th, td {
+    border: 1px solid black; /* Đặt khung viền cho bảng và ô */
+    padding: 8px; /* Khoảng cách giữa nội dung và khung viền */
+    text-align: center; /* Căn giữa nội dung */
+}
+
+/* Thêm kiểu nền và màu cho tiêu đề bảng */
+th {
+    background-color: #f2f2f2; /* Nền nhạt cho tiêu đề */
+}
